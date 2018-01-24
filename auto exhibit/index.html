@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vintage Auto Exhibition</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/stylereset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="img/red_car.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="img/car2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="img/car3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+		</div>
+	</div>
+
+
+
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">Service</a></li>
+                <li><a href="#portfolio">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+	</nav>
+
+
+
+	<div class="container-2"> 
+		<h3>THE CORNER GARAGE FOR COLLECTOR CARS</h3>
+		<div class="pics">
+			<a href="" id="pic1"><img src="img/qanchi.svg"><h1>MODIFY</h1></a>
+			<a href="" id="pic2"><img src="img/car_key.svg"><h1>BUY</h1></a>
+			<a href="" id="pic3"><img src="img/bolt.svg"><h1>REPAIR</h1></a>
+		</div>
+	</div>
+
+	<div class="road">
+		<img class="trees" src="img/trees.svg">
+		<img class="mountains" src="img/mountains.svg">
+		<img class="roadline" src="img/road_line.svg">
+		<img class="car" src="img/asset1.svg">
+	</div>
+	
+	
+
+
+
+	<div class="lastcontainer">
+
+		<div id="googleMap" style="width:86%;height:400px;"></div>
+
+		<script>
+		function myMap() {
+		var mapProp= {
+		    center:new google.maps.LatLng(68.508742,83.120850),
+		    zoom:6,
+		};
+		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		}
+		</script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAioR4wnpludjNnwenv0JHkhC9vwiA8_GM&callback=myMap"></script>
+
+
+
+		<section class="contact">
+			<div class="location">
+				<p class="address">GET IN TOUCH</p>	
+				<form class="sendbox">
+				 <!--  <label for="name">name</label> --><br>
+				  <input type="text" id="name" name="name" value="name"><br>
+				  <!-- <label for="email">email</label><br> -->
+				  <input type="text" id="email" name="email" value="email"><br>
+				  <!-- <label for="message">subject</label><br> -->
+				  <input type="text" id="message" name="message" value="text"><br>
+				  <!-- <label for="message">text</label><br> -->
+				  <input type="text" id="notification" name="notification" value=""><br>
+				  <a class="send" href="">send</a>
+				</form> 
+				
+			</div>
+			</section>
+	</div>
+
+	<!-- <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAioR4wnpludjNnwenv0JHkhC9vwiA8_GM&callback=initMap">
+    </script>
+ -->
+<!-- 
+	<div id="map">
+    <script>
+      function initMap() {
+        var uluru = {lat: 41.7176851, lng: 44.784054};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+        marker.setMap(map);
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzt1FqWZYYkUqt4oRpSlquUUcGYcLx6gE&callback=initMap">
+    </script>
+    </div> -->
+
+	
+</body>
+	

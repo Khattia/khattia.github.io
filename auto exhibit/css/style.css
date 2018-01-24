@@ -1,0 +1,221 @@
+@font-face {
+	font-family: roboto-boldcondensed;
+	src: url('../fonts/Roboto-BoldCondensed.ttf')
+}
+
+/*BURGER*/
+
+
+/*.navbar, .navbar-inverse {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    min-height: 80px;
+
+}
+
+.nav li {
+    display: inline;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 1.7em;
+    font-weight: 300;
+    padding: 30px 25px 33px 25px;
+}*/
+
+.navbar-inverse .navbar-nav li a:hover {
+    background-color: #444444;
+    transition: 0.7s all linear;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+h3 {
+	text-align: center;
+	padding-bottom: 4%;
+	font-family: roboto-boldcondensed;
+	/*margin-left: 17%;
+    width: 66%;*/
+	
+}
+
+.container-2 {
+	margin-top: 5%;
+}
+
+.h1, h1 {
+
+	position: absolute;
+	bottom: 0.1%;
+	font-family: roboto-boldcondensed;
+	color: black;
+	
+}
+#pic1 {
+	float: left; 
+	width: 19.8%; 
+	margin-left: 19%;
+	position: relative;
+	
+
+}
+#pic2 {
+	float: left; 
+	width: 19.8%; 
+	margin-left: 1.25%;
+	margin-right: 1.25%;
+	position: relative;
+
+}
+#pic3 {
+	float: right; 
+	width: 19.8%;
+	margin-right: 19%;
+	position: relative;
+
+}
+
+
+/*MOVING CAR*/
+
+.container-2 {
+	margin-top: 5%;
+	/*position: relative;*/
+}
+
+.road {
+	position: relative;
+	margin-top: 30%;
+}
+
+.trees {
+	position: absolute;
+	bottom: 37%;
+	width: 80%;
+	margin-left: 10%;
+}
+.mountains {
+	width: 170%;
+	overflow: hidden;
+
+}
+
+.roadline {
+	margin-top: 7%;
+}
+
+.car {
+
+}
+
+
+
+
+/*MAP*/
+
+#googleMap {
+	margin-left: 7%;
+	margin-right: 7%;
+	
+}
+
+
+
+
+/*CONTACT*/
+
+.lastcontainer {
+		position: relative;
+		bottom: 100%;
+		margin-top: 5%;
+}
+
+.contact {
+	margin-left: 41%;
+	margin-right: 14.3%;
+	margin-top: 14%;
+	background-color: #ffffff;
+	position: absolute;
+	top: 16%;
+	width: 45%;
+}
+.address {
+	float: left;
+	margin-left: 12%;
+	color: #000000;
+	margin-top: 5%;
+	margin-right: 20%;
+	
+}
+
+p.address {
+	/*font-family: "bpg_ingiri_arial";*/
+	font-size: large;
+}
+
+form {
+	margin-left: 5%;
+}
+label {
+	color: #ffffff;
+	margin-top: 1%;
+	margin-bottom: 2px;
+	font-family: roboto-boldcondensed;
+}
+input {
+	background-color: #F2F2F2;
+	color: #4D4D4D;
+	margin-left: 12%;
+	/*padding-left: 2.5%;*/
+}
+input#name,#email,#message{
+	width: 60%;
+	height: 40px;
+	border:	1px solid #ffffff;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	float: left;
+}
+input#notification {
+	width: 60%;
+	height: 80px;
+	border:	1px solid #ffffff;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+}
+
+#text {
+	width: 80%;
+}
+.sendbox {
+	margin-left: 12%;
+	padding-top: 3%;
+}
+
+
+
+a.send {
+	color: #ffffff;
+	font-family: "bpg_nino_mtavruli_bold";
+	border: 8px solid #000000;
+	background-color: #000000;
+	font-size: medium;
+	padding-right: 3px;
+	padding-left: 3px;
+	margin-left: 80%;
+}
+
