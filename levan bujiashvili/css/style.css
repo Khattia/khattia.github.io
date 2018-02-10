@@ -1,0 +1,162 @@
+.home {
+	background: url('../img/sculpture.jpg') no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.main-container {
+	max-width: 75%;
+	width: 100%;
+	height: 10vh;
+	margin: 0 auto;
+}
+.social-icons {
+	float: right;
+    margin-top: 2%;
+    margin-right: 2.2%;
+}
+.facebook {
+	width: 2.2vw;
+}
+.facebook:hover {
+    width: 2.5vw;
+}
+/*.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}*/
+.img-title {
+	font-family: 'alk-tall';
+    font-size: 18.5vw;
+    letter-spacing: 1.85vw;
+    color: #F3F7FC;
+    position: absolute;
+    bottom: 1.7%;
+    z-index: 1;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+}
+.lower-layer {
+	height: 18vh;
+    width: 100%;
+    background-color: #B7B09E;
+    position: absolute;
+    bottom: 0%;
+}
+.name-layer {
+    height: 8vh;
+    width: 22.81%;
+    background-color: #3C393C;
+    position: absolute;
+    bottom: 18vh;
+    z-index: 1; 
+    /*visibility: hidden;*/
+}
+.name-layer p {
+	font-family: 'alk-tall';
+    font-size: 9vh;
+    /*font-weight: 800;*/
+    color: #F3F7FC;
+    right: -2%;
+    position: absolute;
+    letter-spacing: 0.7vw;
+    line-height: 8.7vh;
+}
+
+
+/*ABOUT*/
+
+.about {
+    /*background: url('../img/backgroung-img.png');*/
+    background-color: #3C393C;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+h1 {
+    font-family: 'archyedt-bold' !important;
+    font-size: 6vh !important;
+    text-align: center;
+    color: #FFFFC4;
+    position: absolute;
+    /*left: 24%;
+    top: 15%;
+    width: 13%;*/
+}
+.levan {
+    position: absolute;
+    width: 22%;
+    height: 66.8%;
+    bottom: 22%;
+    left: 12.7%;
+    top: 17%;
+}
+.carousel-inner .item {
+    padding: 5%;
+ /*   font-weight: bold;*/
+    letter-spacing: 1px;
+}
+#myCarousel {
+    /*width: 55%;*/
+    height: 55.7%;
+    background-color: #C1BAAA;
+    left: 34.7%;
+    right: 14.57%;
+    top: 17%;
+    position: absolute;
+    font-family: 'bpg_square';
+    font-size: 2.3vh;
+}
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+   opacity: 1;
+}
+.left.carousel-control, .right.carousel-control {
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 100%;
+}
+
+.arrow-left {
+    transform: rotate(180deg);
+    /*top: 30%;*/
+    margin-top: 2.6%;
+    width: 15%;
+}
+.arrow-right {
+    margin-top: 2.6%;
+    width: 15%;
+}
+.left.carousel-control, .right.carousel-control {
+    background-color: #D3CCBC;
+
+}
+.right.carousel-control:hover .left.carousel-control:hover {
+    background-color: #C1BAAA;
+}
+
+
+/*GALLERY*/
+
+/*.gallery-head {
+    height: 15vh;
+    background-color: #C1BAAA;
+}*/
+h2 {
+    font-family: 'alk-tall' !important;
+    font-size: 10vh !important;
+    letter-spacing: 1vh;
+}
+.gallery-slider {
+    height: 85vh;
+    background-color: #C1BAAA;
+    padding-top: 8vh;
+    text-align: center;
+}
+.gallery img {
+    height: 30vh;
+    top: 20%;
+    
+}

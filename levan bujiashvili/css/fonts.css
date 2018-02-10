@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'bebas-neue-regular';
+    src: url('../fonts/bebas-neue-regular.otf');
+}
+
+@font-face {
+    font-family: 'bpg_square';
+    src: url('../fonts/bpg_square_2009.ttf');
+}       
+@font-face {
+    font-family: 'alk-tall';
+    src: url('../fonts/alk-tall-mtavruli-webfont.ttf');
+}
+
+@font-face {
+    font-family: 'archyedt-bold';
+    src: url('../fonts/archyedt-bold-webfont.ttf');
+}         
