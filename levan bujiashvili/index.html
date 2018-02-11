@@ -69,9 +69,9 @@
 <!-- GALLERY -->
 
 	<section class="gallery">
-
+		<h2>ნამუშევრები</h2>
 		<div class="gallery-slider">
-			<h2>ნამუშევრები</h2>
+			
 			<a href="img/gallery1.jpg" data-caption="1" data-fancybox="image">
 				<img src="img/gallery1.jpg">
 			</a>
@@ -84,22 +84,92 @@
 			<a href="img/gallery4.jpg" data-caption="4" data-fancybox="image">
 				<img src="img/gallery4.jpg">
 
-			<a href="img/gallery5.jpg" data-caption="5" data-fancybox="image">
+			<a href="img/gallery5.jpg" data-caption="5" data-fancybox="map">
 				<img src="img/gallery5.jpg">
 			</a>
 			<a href="img/gallery6.jpg" data-caption="6" data-fancybox="image">
 				<img src="img/gallery6.jpg">
 			</a>
-			<a href="img/gallery7.jpg" data-caption="5" data-fancybox="image">
+			<a href="img/gallery7.jpg" data-caption="7" data-fancybox="image">
 				<img src="img/gallery7.jpg">
 			</a>
-			<a href="img/gallery8.jpg" data-caption="6" data-fancybox="image">
+			<a href="img/gallery8.jpg" data-caption="8" data-fancybox="image">
 				<img src="img/gallery8.jpg">
 			</a>
+			<a href="img/gallery9.jpg" data-caption="9" data-fancybox="image">
+				<img src="img/gallery9.jpg">
+			</a>
+			<a href="img/gallery10.jpg" data-caption="10" data-fancybox="image">
+				<img src="img/gallery10.jpg">
+			</a>
+			<!-- <a href="img/gallery11.jpg" data-caption="11" data-fancybox="image">
+				<img src="img/gallery11.jpg">
+			</a>
+			<a href="img/gallery12.jpg" data-caption="12" data-fancybox="image">
+				<img src="img/gallery12.jpg">
+			</a>
+			<a href="img/gallery13.jpg" data-caption="13" data-fancybox="image">
+				<img src="img/gallery13.jpg">
+			</a>
+			<a href="img/gallery14.jpg" data-caption="14" data-fancybox="image">
+				<img src="img/gallery14.jpg">
+			</a>
+			<a href="img/gallery15.jpg" data-caption="15" data-fancybox="image">
+				<img src="img/gallery15.jpg">
+			</a> -->
+		</div>
+	</section>
+
+<!-- LOCATION -->
+	
+	<section class="location">
+		<h3>ესტუმრე</h3>
+		<div class="location-artwork"> 
+			<a href="<script>
+		      function initMap() {
+		        var uluru = {lat: 41.7176851, lng: 44.784054};
+		        var map = new google.maps.Map(document.getElementById('map'), {
+		          zoom: 16,
+		          center: uluru
+		        });
+		        var marker = new google.maps.Marker({
+		          position: uluru,
+		          map: map
+		        });
+		        marker.setMap(map);
+		      }
+		    </script>" data-caption="1" data-fancybox="image">
+			<img src="img/gallery1.jpg"></a>
+
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzt1FqWZYYkUqt4oRpSlquUUcGYcLx6gE&callback=initMap">
+			</script>
 		</div>
 	</section>
 
 
+<!-- CONTACT -->
+	<section class="contact">
+		<div class="contact1">
+			<h4>კონტაქტი</h4>	
+			<form class="sendbox">
+				<label for="name">სახელი</label><br>
+				<input type="text" id="name" name="name" value=""><br>
+				<label for="email">ელ.ფოსტა</label><br>
+				<input type="text" id="email" name="email" value=""><br>
+				<label for="message">საგანი</label><br>
+				<input type="text" id="message" name="message" value=""><br>
+				<label for="message">შეტყობინება</label><br>
+				<input type="text" id="notification" name="notification" value=""><br>
+				<a class="send" href="">გაგზავნა</a>
+			</form> 
+			
+		</div>
+	</section>
+
+<!-- FOOTER -->	
+	<footer>
+		<div class="footer"></div>
+	</footer>
 
 </body>
 </html>

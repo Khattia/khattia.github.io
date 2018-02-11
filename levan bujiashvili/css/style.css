@@ -140,10 +140,11 @@ h1 {
 
 /*GALLERY*/
 
-/*.gallery-head {
-    height: 15vh;
+.gallery {
     background-color: #C1BAAA;
-}*/
+    padding-left: 12.7%;
+    padding-top: 5vh;
+}
 h2 {
     font-family: 'alk-tall' !important;
     font-size: 10vh !important;
@@ -152,11 +153,86 @@ h2 {
 .gallery-slider {
     height: 85vh;
     background-color: #C1BAAA;
-    padding-top: 8vh;
-    text-align: center;
+    padding-top:  2vh;
+    /*text-align: center;*/
+    /*padding-left: 6.4%;*/
+    /*padding-right: 6.7%;*/
 }
-.gallery img {
+/*.gallery img {
     height: 30vh;
     top: 20%;
-    
+}*/
+a img {
+    height: 40%;
+    width: 15%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+/*LOCATION*/
+
+h3 {
+    font-family: 'alk-tall' !important;
+    font-size: 10vh !important;
+    letter-spacing: 1vh;
+    color: #F3F7FC !important;
+}
+.location {
+    background-color: #3C393C;
+    padding-left: 12.7%;
+    padding-top: 5vh;
+    height: 50vh;
+}
+
+/*CONTACT*/
+
+.contact {
+    background-color: #C1BAAA;
+    height: 96vh;
+}
+h4 {
+    font-family: 'alk-tall' !important;
+    font-size: 10vh !important;
+    letter-spacing: 1vh;
+    color: #3C393C !important;
+    padding-left: 12.7% !important;
+    padding-top: 5vh !important;
+}
+input {
+    background-color: #F2F2F2;
+}
+input#name,#email,#message{
+    width: 70%;
+    height: 6vh;
+    border: 1px solid #ffffff;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+input#notification {
+    width: 70%;
+    height: 25vh;
+    border: 1px solid #ffffff;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+label {
+    font-family: "archyedt-bold";
+}
+.sendbox {
+    margin-left: 12%;
+    padding-top: 6vh;
+}
+a.send {
+    color: #ffffff;
+    font-family: "archyedt-bold";
+    border: 8px solid #000000;
+    background-color: #000000;
+    font-size: medium;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #3C393C;
+    height: 7vh;
 }
