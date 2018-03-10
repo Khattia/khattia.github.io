@@ -15,4 +15,24 @@
 @font-face {
     font-family: 'archyedt-bold';
     src: url('../fonts/archyedt-bold-webfont.ttf');
-}         
+}       
+
+@font-face {
+    font-family: 'bpg-nino-elite';
+    src: url('../fonts/bpg-nino-elite-webfont.ttf');
+}     
+
+@font-face {
+    font-family: 'bpg-nino-medium';
+    src: url('../fonts/bpg-nino-medium-condenced-webfont.ttf');
+}      
+
+@font-face {
+    font-family: 'bpg-ingiri-arial';
+    src: url('../fonts/bpg-ingiri-arial-webfont.ttf');
+}    
+
+@font-face {
+    font-family: 'arial-geo';
+    src: url('../fonts/arial-geo-webfont.ttf');
+}        

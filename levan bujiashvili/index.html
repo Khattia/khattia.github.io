@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="css/bootstrap.min.js">
 	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="slick/slick.css"/>
+  	<link rel="stylesheet" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" href="css/stylereset.css">
 </head>
 
@@ -15,6 +17,7 @@
 		<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script src="js/jquery.fancybox.min.js"></script>
+
 
 <!-- HEADER -->
 	<div class="home">
@@ -25,9 +28,7 @@
 		</header>
 		<div class="main-container"><p class="img-title">ბუჯიაშვილი</p></div>
 		<div class="lower-layer"></div>
-		<div class="name-layer">
-			<p>ლევან</p>
-		</div>
+		<div class="name-layer"><p>ლევან</p></div>
 	</div>
 
 <!-- SECTION 1 - ABOUT -->
@@ -40,7 +41,7 @@
 			    <div class="carousel-inner">
 			      	<div class="item active">
 			      		<h1>ჩემ შესახებ</h1><br><br><br><br>
-			        	<p>ლევან ლორემ იპსუმ დაგითმობ აყრილი ბაბუ აფხაზებსაც სხვათა შეწუხდები მოვისვი საქციელის, გძელაძეს გაგრიცხავენო გაბრწყინებული. უღირდათ მიწურულს აარიდებ კიდობანს, სრიალიდან ჰყვავის, ყიჟინით გამარჯობათ დახვრიტეს. კიდობანს სრიალიდან ლუარსაბსაც ლოდინი ტვირთია გაიფანტებოდნენ, ჩოხაში ართმევთ გულისპირში სეძლებდი ვვეჭიდებით მოვიხსენიე, წუხანდელი შემთხვევაც მორთეს. ქვიშიანი ტანსა ხუნდებს დაუღრინა მიატანეს მორთეს დავაყაროთ გადაწყვიტე, ლოდინი მეხოტბენი დრაულეს შემთხვევაც მათ მუქარით. დაგითმობ შემჭამს ჰყვავის მიატანეს, ღრუბლებს აკვირდებოდნენ სცემ. შეწუხდები გულისპირში სუსტად უსამართლობა, წარმატების საქციელის მორთეს.</p>
+			        	<p>ლევან ლორემ იპსუმ დაგითმობ აყრილი ბაბუ აფხაზებსაც სხვათა შეწუხდები მოვისვი საქციელის, გძელაძეს გაგრიცხავენო გაბრწყინებული. უღირდათ მიწურულს აარიდებ კიდობანს, სრიალიდან ჰყვავის, ყიჟინით გამარჯობათ დახვრიტეს. კიდობანს სრიალიდან ლუარსაბსაც ლოდინი ტვირთია გაიფანტებოდნენ, ჩოხაში ართმევთ გულისპირში სეძლებდი ვვეჭიდებით მოვიხსენიე, წუხანდელი შემთხვევაც მორთეს. ქვიშიანი ტანსა ხუნდებს დაუღრინა მიატანეს მორთეს დავაყაროთ გადაწყვიტე, ლოდინი მეხოტბენი დრაულეს შემთხვევაც მათ მუქარით. დაგითმობ შემჭამს ჰყვავის მიატანეს, ღრუბლებს აკვირდებოდნენ სცემ. ლოდინი მეხოტბენი დრაულეს შემთხვევაც მათ მუქარით. დაგითმობ შემჭამს ჰყვავის მიატანეს, ღრუბლებს აკვირდებოდნენ სცემ. დაგითმობ შემჭამს ჰყვავის მიატანეს. </p>
 			      	</div>
 			      	<div class="item">
 			      		<h1>ჩემ შესახებ</h1><br><br><br><br>
@@ -102,21 +103,6 @@
 			<a href="img/gallery10.jpg" data-caption="10" data-fancybox="image">
 				<img src="img/gallery10.jpg">
 			</a>
-			<!-- <a href="img/gallery11.jpg" data-caption="11" data-fancybox="image">
-				<img src="img/gallery11.jpg">
-			</a>
-			<a href="img/gallery12.jpg" data-caption="12" data-fancybox="image">
-				<img src="img/gallery12.jpg">
-			</a>
-			<a href="img/gallery13.jpg" data-caption="13" data-fancybox="image">
-				<img src="img/gallery13.jpg">
-			</a>
-			<a href="img/gallery14.jpg" data-caption="14" data-fancybox="image">
-				<img src="img/gallery14.jpg">
-			</a>
-			<a href="img/gallery15.jpg" data-caption="15" data-fancybox="image">
-				<img src="img/gallery15.jpg">
-			</a> -->
 		</div>
 	</section>
 
@@ -124,26 +110,32 @@
 	
 	<section class="location">
 		<h3>ესტუმრე</h3>
-		<div class="location-artwork"> 
-			<a href="<script>
-		      function initMap() {
-		        var uluru = {lat: 41.7176851, lng: 44.784054};
-		        var map = new google.maps.Map(document.getElementById('map'), {
-		          zoom: 16,
-		          center: uluru
-		        });
-		        var marker = new google.maps.Marker({
-		          position: uluru,
-		          map: map
-		        });
-		        marker.setMap(map);
-		      }
-		    </script>" data-caption="1" data-fancybox="image">
-			<img src="img/gallery1.jpg"></a>
 
-			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzt1FqWZYYkUqt4oRpSlquUUcGYcLx6gE&callback=initMap">
-			</script>
-		</div>
+		<div class="autoplay">
+		    <div class="loc"><a href="..." target="_blank"><img src="img/opera.jpg" class="image"></a>
+		    	<div class="middle"><p>ადგილმდებარეობის სანახავად დააჭირეთ ფოტოს</p></div>
+		    </div>
+		    <div class="loc"><a href="..." target="_blank"><img src="img/rustaveli.jpg" class="image"></a>
+		    	<div class="middle"><p>ადგილმდებარეობის სანახავად დააჭირეთ ფოტოს</p></div>
+		    </div>
+		    <div class="loc"><a href="..." target="_blank"><img src="img/painter.jpg" class="image"></a>
+		    	<div class="middle"><p>ადგილმდებარეობის სანახავად დააჭირეთ ფოტოს</p></div>
+		    </div>
+		    <div class="loc"><a href="..." target="_blank"><img src="img/sheep.jpg" class="image"></a>
+		    	<div class="middle"><p>ადგილმდებარეობის სანახავად დააჭირეთ ფოტოს</p></div>
+		    </div>
+		    <div class="loc"><a href="..." target="_blank"><img src="img/magdana.jpg" class="image"></a>
+		    	<div class="middle"><p>ადგილმდებარეობის სანახავად დააჭირეთ ფოტოს</p></div>
+		    </div>
+		    <div class="loc"><a href="..." target="_blank"><img src="img/spa.jpg" class="image"></a>
+		    	<div class="middle"><p>ადგილმდებარეობის სანახავად დააჭირეთ ფოტოს</p></div>
+		    </div>
+		    <div class="loc"><a href="..." target="_blank"><img src="img/rustavi.jpg" class="image"></a>
+		    	<div class="middle"><p>ადგილმდებარეობის სანახავად დააჭირეთ ფოტოს</p></div>
+		    </div>
+		    
+	  	</div>
+
 	</section>
 
 
@@ -151,25 +143,55 @@
 	<section class="contact">
 		<div class="contact1">
 			<h4>კონტაქტი</h4>	
-			<form class="sendbox">
-				<label for="name">სახელი</label><br>
-				<input type="text" id="name" name="name" value=""><br>
-				<label for="email">ელ.ფოსტა</label><br>
-				<input type="text" id="email" name="email" value=""><br>
-				<label for="message">საგანი</label><br>
-				<input type="text" id="message" name="message" value=""><br>
-				<label for="message">შეტყობინება</label><br>
-				<input type="text" id="notification" name="notification" value=""><br>
-				<a class="send" href="">გაგზავნა</a>
-			</form> 
-			
+			<form>
+				<div class="form-group has-error">
+				  <label class="control-label" for="inputError1">სახელი</label>
+				  <input type="text" class="form-control" id="inputError1" aria-describedby="helpBlock2">
+				  <span id="helpBlock2" class="help-block">აბგ</span>
+				</div>
+				<div class="form-group has-error">
+				  <label class="control-label" for="inputError1">ელ.ფოსტა</label>
+				  <input type="text" class="form-control" id="inputError1">
+				  <span id="helpBlock2" class="help-block">აბგ</span>
+				</div>
+				<div class="form-group has-error">
+				  <label class="control-label" for="inputError1">საგანი</label>
+				  <input type="text" class="form-control" id="inputError1">
+				  <span id="helpBlock2" class="help-block">აბგ</span>
+				</div>
+				<div class="form-group1 has-error1">
+				  <label class="control-label" for="inputError1">შეტყობინება</label>
+				  <textarea type="text" class="form-control" id="inputError1"></textarea>
+				  <span id="helpBlock2" class="help-block">აბგ</span>
+				</div>
+				<div class="sendbox">
+					<button class="send" href="">გაგზავნა</button>
+					<span id="helpBlock2" class="help-block greenmessage">შეტყობინება წარმატებით გაიგზავნა</span>
+				</div>
+			</form>
 		</div>
 	</section>
+
+
+
 
 <!-- FOOTER -->	
 	<footer>
 		<div class="footer"></div>
 	</footer>
+
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  	<script src="slick/slick.min.js"></script>
+  	<script >
+  		$('.autoplay').slick({
+		  slidesToShow: 3,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  autoplaySpeed: 2500,
+		});
+  	</script>
 
 </body>
 </html>
